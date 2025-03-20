@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Miama';
+    src: url('/fonts/miama/Miama-Regular.woff2') format('woff2'),
+         url('/fonts/miama/Miama-Regular.woff') format('woff'),
+         url('/fonts/miama/Miama-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  *{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+  }
+  /* shared styles */
+  .primary-bg
+  {
+    background-color: black;
+    background-repeat: no-repeat;
+  }
+  .primary-color
+  {
+    color: #E6533C;
+  }
+  .text-gray
+  {
+    color:rgba(255, 255, 255, 0.5);
+  }
+ .display-flex
+ {
+    display: flex;
+ } 
+ .btn-primary
+  {
+    background-color: #E6533C;
+    border-radius: 40px;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+  }
+ 
+ /* navbar styles */
+  header
+  {
+    max-width: 1200px;
+    margin: 50px auto 0px;
+    /* border: 1px solid rebeccapurple; */
+  }
+ .navbar
+ {
+    justify-content: space-between ;
+    align-items: center;
+ }
+ .brand
+ {
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 800;
+ }
+ .nav-links
+ {
+    gap: 47px;
+    list-style: none;
+ }
+ .nav-link
+ {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+ }
+ #home
+ {
+    background-color: #E6533C;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 8px 20px;
+ }
+ .banner
+ {
+    gap: 340px;
+ 
+    align-items: center;
+ }
+ .banner-content
+ {
+    max-width: 520px;
+    margin-top: -170px;
+    
+ }
+ .banner-title
+ {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+ }
+ .banner-description
+ {
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+ .shape
+ {
+    font-family: 'Miama', sans-serif;
+                                                
+    font-weight: 400;
+ }
+ #download-btn
+ {
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 14px;
+ }
+ .free-work-btn
+ {
+    box-sizing: border-box;
+    border:  1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    position: relative;
+    top: -440px;
+    left: 230px;
+    
+ }
+ #text
+ {
+    font-size: 2rem;
+    font-weight: 700;   
+ }
+ #free-work
+ {
+    color: white;
+    opacity: 0.6;
+    font-size: 0.9rem;
+    
+ }
+ .round-shape
+ {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    margin-right: 8px;
+ }
+ .video
+ {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border:  1px solid rgba(255, 255, 255, 0.1);
+    padding: 18px 18px;
+    border-radius: 12px;
+    background-color:  rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    position: relative;
+    top: -250px;
+    left: -80px;
+ }
+ .box-style h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+ .box-style p
+ {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.9rem;
+
+ }
+ /* our habits styles */
+ .change-habits
+ {
+   max-width: 1200px;
+   margin: -100px auto 20px;
+ }
+ .change-habits-content,.section-content
+ {
+   max-width: 500px;
+   margin: 0px auto;
+ }
+ .section-title
+ {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 800;
+ }
+ .section-description
+ {
+   font-size: 0.7rem;
+   color: rgba(239, 237, 232, 0.65);
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 60px;
+   
+ }
+ .habits
+ {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+ }
+ .habit
+ {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   
+ }
+ .habit p{
+   font-size: 0.8rem;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ .habit img
+ {
+   border-radius: 50%;
+   border: 1px solid rgba(239, 237, 232, 0.65);
+   margin-bottom: 10px;
+ }
+
+ /* run mile styles */
+ .run-mile
+ {
+   max-width: 1200px;
+   max-height: 350px;
+   margin: 40px auto;
+   border-radius: 18px;
+   background-color: rgb(34, 34, 34);
+   justify-content: space-between;
+   padding: 40px;
+ }
+ .run-mile-content
+ {
+   max-width: 300px;
+ }
+ .run-mile-content h3, .calculator h3
+ {
+   font-size: 2.7rem;
+   font-weight: 700;
+   margin-bottom: 20px;
+ }
+ .run-mile-content p,.calculator p
+ {
+   font-size: 0.8rem;
+   margin-bottom: 20px;
+   line-height: 20px;
+ }
+ .run-mile img
+ {
+   width: 40%;
+   border-radius: 15px;
+   background-position: center;
+   background-size: contain;
+ }
+ /* calculator related styles */
+
+ .calculator-title,.cal-des
+ {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: left;
+ }
+ .calculator-container
+ {
+   justify-content: space-evenly;
+   background-color: rgb(34, 34, 34);
+   padding-bottom: 30px;
+
+ }
+ .bmi-chart table
+ {
+   border: 1px solid rgba(239, 237, 232, 0.65);
+   border-collapse: collapse;
+
+
+ }
+ table tr td,th
+ {
+   border: 1px solid rgba(239, 237, 232, 0.65);
+   padding: 10px 5px;
+   text-align: center;
+ }
+ table tr td{
+  color:rgba(255, 255, 255, 0.5);
+ }
+ .bmi-chart h4,.calculate h4{
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-bottom: 40px;
+   margin-top: 40px;
+ }
+ .calculate h4
+ {
+  margin-bottom: 10px;
+ }
+ .calculate p
+ {
+  text-align: left;
+  margin-left: -14px;
+ }
+
+ .calculate
+ {
+   max-width: 500px;
+ } 
+ input[type="text"],input[type="number"]
+ {
+   border: 1px solid rgba(239, 237, 232, 0.65);
+   font-size: 1rem;
+   padding: 10px 10px;
+   margin-left: 5px;
+   margin-bottom: 15px;
+   border-radius: 8px;
+
+   background: rgba(255, 255, 255, 0.1);
+ }
+ select
+ {
+   border: 1px solid rgba(239, 237, 232, 0.65);
+   font-size: 1rem;
+   padding: 10px 10px;
+   margin-left: 5px;
+   border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.1);
+  color:rgba(255, 255, 255, 0.5);
+  width: 43%;  
+ }
+ .custom-select
+ {
+  width: 89%;
+  margin-bottom: 20px;
+ }
+ option{
+  background-color: white;
+  color: black;
+ }
+
+
+ input::placeholder
+ {
+   font-size: 1rem;
+   color:rgba(255, 255, 255, 0.5);
+ }
+
+ /* meet our team section */
+.section-content
+{
+  margin-top: 30px;
+}
+.trainer-container
+{
+  
+  border-radius: 18px;
+  max-width: 1200px;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.trainer
+{
+  border-radius: 10px;
+}
+.trainer 
+{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: end;
+}
+.trainer h4,p
+{
+  
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-bottom: 10px;
+ 
+  
+  
+}
+
+#trainer-1
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#trainer-2
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#trainer-3
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+#trainer-4
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#trainer-5
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#trainer-6
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+/* footer design */
+footer
+{
+  background-color: rgb(34, 34, 34);
+  padding: 40px 80px 10px;
+  margin-top: 40px;
+  
+}
+.footer-container
+{
+  max-width: 1200px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.fitness
+{
+  max-width: 450px;
+  text-align: left;
+  /* margin-right: 100px; */
+}
+.fitness p
+{
+  font-size: 0.8rem;
+  margin-left: -14px;
+  margin-top: 30px;
+}
+.get-started h3
+{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+.get-started ul
+{
+  list-style: none;
+
+}
+.get-started ul li
+{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 300;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+hr
+{
+ width: 80%;
+ margin: 10px auto;
+ border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.copy
+{
+ 
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+ /* responsive for smaller device */
+ @media screen and (max-width:576px) {
+   .navbar
+   {
+      flex-direction: column;
+      
+   }
+   .banner
+   {
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 200px;
+   }
+   
+ }
