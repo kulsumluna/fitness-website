@@ -15,7 +15,9 @@
                 <li><a href="" class="nav-link">Service</a></li>
                 <li><a href="" class="nav-link">Contact</a></li>
                 <li><a href="" class="nav-link">About</a></li>
+                
             </ul>
+            <div class="hamburger-menu">☰</div>
         </nav>
         <div class="banner display-flex">
             <div class="banner-content">
@@ -25,7 +27,7 @@
                 <p class="banner-description text-gray">
                     A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!   
                 </p>
-                <button class="btn-primary">Join Club Now!</button>
+                <button class="btn-primary" id="join-btn">Join Club Now!</button>
                 <button class="btn-primary" id="download-btn">Download App</button>
             </div>
             <div>
@@ -116,7 +118,7 @@
                 </div>
                 <div class="calculate">
                     <h4>Calculate Your BMI</h4>
-                    <p class="text-gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    <p class="text-gray cal-desciption">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                     <form action="">
                         <input type="text" name="" id="" required placeholder="Height/cm">
                         <input type="text" name="" id="" required placeholder="Weight/kg">
@@ -134,7 +136,10 @@
                             <option value="1.725">Very Active (Hard exercise 6-7 days per week)</option>
                             <option value="1.9">Super Active (Very intense exercise or physical job)</option>
                           </select>
-                        <button class="btn-primary">Calculate</button>
+                          <div class=" cal-btn">
+                            <button class="btn-primary">Calculate</button>
+                          </div>
+                        
                     </form>
                 </div>
                
